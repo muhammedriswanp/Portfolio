@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   
+    background:linear-gradient(to right,#1f1c2c, #928dab);
+    background-repeat: no-repeat;
+}
+/* #heading{
+      background:linear-gradient(to left,#1f1c2c, #928dab);
+} */
+#navbarScroll a{
+   font-weight: 600;
+   font-size: larger;
+}
+#mainhd{
+    font-weight: 500;
+   font-size: xx-large;
+   
+}
+#secondSection{
+    color: bisque;
+}
+#html5 i{
+    color: #e34f26;
+}
+#CSS3 i{
+    color:#1572b6 ;
+}
+#js i{
+    color: #f7df1e;
+}
+#bootstrap i{
+    color: #7952b3;
+}
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}
+#heading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to left, #1f1c2c, #928dab); 
+  z-index: 1030; 
+}
+body {
+  padding-top: 150px;
+}
+#mainhd {
+  font-size: 32px;       
+  font-weight: 700;     
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#mainhd:hover {
+  color:#1f1c2c;   
+}
+
+
+
+#navbarItems a:hover {
+   
+    color: #7fa6e0 !important; 
+
+}
+
+/* #sec1{
+      background:linear-gradient(to right,#2c5364, #0f2027);
+} */
+#secondHeading{
+    
+  color: bisque; 
+}
+.cardsat1:hover {
+  box-shadow: 0 1rem 1rem rgba(73, 126, 218, 0.15) !important;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-20px); 
+  color: white;
+  background-color: black;
+}
+.cardset2:hover {
+  box-shadow: 0 1rem 1rem rgba(73, 126, 218, 0.15) !important;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-20px); 
+  color: white;
+   background:linear-gradient(to right,#29323c, #485563);
+  
+}
+.cardset2-1:hover {
+  box-shadow: 0 1rem 1rem rgba(73, 126, 218, 0.15) !important;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-20px); 
+  color: white;
+   background:linear-gradient(to left,#29323c, #485563);
+  
+}
+.projectHeading{
+    color: #ffffff;
+}
+
+#secondHeading:hover {
+  text-shadow: 0 0 10px rgba(39, 31, 176, 0.7);
+  transition: text-shadow 0.3s ease-in-out; 
+  color: #9a8478;
+  
+}
+.projectHeading:hover {
+  text-shadow: 0 0 10px rgba(39, 31, 176, 0.7);
+  transition: text-shadow 0.3s ease-in-out; 
+  color: #9a8478;
+  
+}
+
+.cardset3:hover {
+  box-shadow: 0 1rem 1rem rgba(73, 126, 218, 0.15) !important;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-10px); 
+  color: white;
+  background-color: #353434;
+}
+/* .secSkills{
+        background:linear-gradient(to right,#2c5364, #0f2027);
+
+} */
+ .skillsHeading:hover {
+     text-shadow: 0 0 10px rgba(39, 31, 176, 0.7);
+  transition: text-shadow 0.3s ease-in-out; 
+  color: #9a8478;
+  
+}
+.skillsHeading{
+    color: white;
+}
+.contactHeading{
+    color: white;
+}
+ .contactHeading:hover {
+     text-shadow: 0 0 10px rgba(39, 31, 176, 0.7);
+  transition: text-shadow 0.3s ease-in-out; 
+  color: #9a8478;
+  
+}
+.lastDetails{
+    background-color: #1b1d32;
+}
+.sendMsg{
+    background-color: #1b1d32;
+}
+.sendMsg {
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); 
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+.lastDetails {
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); 
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.dropdown{
+    position: fixed;
+    top: 3%;
+    right: 0%;
+    z-index: 1100;
+}
+
+
+
+@media (min-width: 983px) {
+    .dropdown {
+    display: none ;  
+  }
+}
+
+#dropdownMenuButton{
+    background-color:#928dab ;
+}
+.dropdown-menu{
+    background-color: #928dab;
+}
