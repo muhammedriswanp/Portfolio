@@ -8,6 +8,7 @@ body{
    
     background:linear-gradient(to right,#1f1c2c, #928dab);
     background-repeat: no-repeat;
+    
 }
 /* #heading{
       background:linear-gradient(to left,#1f1c2c, #928dab);
@@ -48,9 +49,9 @@ body, html {
   background: linear-gradient(to left, #1f1c2c, #928dab); 
   z-index: 1030; 
 }
-body {
+/* body {
   padding-top: 150px;
-}
+} */
 #mainhd {
   font-size: 32px;       
   font-weight: 700;     
